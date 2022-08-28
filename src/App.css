@@ -10,8 +10,14 @@
   gap: 15px
 }
 
-.login-button {
 
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin: auto 20px;
 }
 
 .card-container {
@@ -25,26 +31,8 @@
   margin: 25px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  padding-inline-start: 20px;
-}
-
 .text-gray {
   color: gray
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list-item {
-  margin: auto 20px;
 }
 
 .nav-list-item:hover {
@@ -57,4 +45,13 @@ ul {
 
 .car-paper {
   padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-inline-start: 20px;
 }
